@@ -15,7 +15,7 @@
                 "GOPATH": "/Users/bingke/go",
                 "GOROOT": "/usr/local/go"
             },
-            "args": ["/Users/bingke/Desktop/123.txt"]
+            "args": [">out.gif"]
         }
     ]
 }
