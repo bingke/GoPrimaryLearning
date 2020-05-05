@@ -15,7 +15,7 @@
                 "GOPATH": "/Users/bingke/go",
                 "GOROOT": "/usr/local/go"
             },
-            "args": [">out.gif"]
+            "args": ["http://gopl.io","http://gopl.io"]
         }
     ]
 }
