@@ -9,7 +9,7 @@ import (
 	"os"
 )
 
-func main1_7() {
+func main() {
 	for _, url := range os.Args[1:] {
 		resp, err := http.Get(url)
 		if err != nil {

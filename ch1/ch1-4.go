@@ -8,7 +8,7 @@ import (
 	"os"
 )
 
-func main14() {
+func main() {
 	counts := make(map[string]int)
 	repetition := make(map[string]int)
 	files := os.Args[1:]

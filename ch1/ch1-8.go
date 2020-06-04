@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-func main1_8() {
+func main() {
 	for _, url := range os.Args[1:] {
 		if strings.HasPrefix(url, "http://") != true {
 			url = "http://" + url

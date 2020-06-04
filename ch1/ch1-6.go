@@ -14,7 +14,7 @@ import (
 
 var palette = []color.Color{color.White, color.RGBA{0, 255, 25, 255}, color.RGBA{0, 5, 5, 255}, color.RGBA{0, 255, 6, 7}, color.RGBA{0, 12, 68, 100}}
 
-func main1_6() {
+func main() {
 
 	rand.Seed(time.Now().UTC().UnixNano())
 	lissajous(os.Stdout)

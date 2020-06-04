@@ -1,5 +1,5 @@
 // Lissajous generates GIF animations of random Lissajous figures.
-package ch1
+package main
 
 import (
 	"image"
@@ -20,7 +20,7 @@ const (
 	greenIndex = 1
 )
 
-func main1_5() {
+func main() {
 
 	rand.Seed(time.Now().UTC().UnixNano())
 	lissajous(os.Stdout)
